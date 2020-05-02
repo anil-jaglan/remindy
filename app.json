@@ -1,0 +1,17 @@
+{
+  "name": "remindy",
+  "displayName": "remindy",
+  "expo": {
+    "name": "remindy",
+    "slug": "remindy",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
