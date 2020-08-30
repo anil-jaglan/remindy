@@ -38,7 +38,9 @@ export default class ReminderList extends React.Component {
         }, 1000);
 
         this.props.navigation.addListener('focus', () => {
-            getEvents().then(events => this.setState({ events: events }));
+            const events = require('./db.json').events.map(e => ({...e, date: new Date(e.date)}));
+            this.setState({events: events});
+            //getEvents().then(events => this.setState({ events: events }));
         });
 
     }

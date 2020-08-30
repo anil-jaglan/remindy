@@ -61,7 +61,7 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.softron.remindy</string>
+          <string>com.remindy</string>
         </array>
       </dict>
     </array>

@@ -2,8 +2,8 @@
 import Constants from 'expo-constants';
 import uuid from 'uuid';
 
-const api = Constants.manifest.extra.dev
-   ? Constants.manifest.extra.debuggerHost.split(':').shift().concat(':3000') : 'http://api.remindy.com/';
+// const api = Constants.manifest.extra.dev
+//    ? Constants.manifest.extra.debuggerHost.split(':').shift().concat(':3000') : 'http://api.remindy.com/';
 
 const url = `http://localhost:3000/events`;
 

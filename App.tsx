@@ -9,6 +9,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 YellowBox.ignoreWarnings([
   'Warning: componentWillMount is deprecated',
+  'Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-unsafe-component-lifecycles for details.',
 ]);
 
 const Stack = createStackNavigator();

@@ -290,7 +290,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.softron.remindy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remindy";
 				PRODUCT_NAME = remindy;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -315,7 +315,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.softron.remindy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remindy";
 				PRODUCT_NAME = remindy;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
