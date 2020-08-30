@@ -1,0 +1,8 @@
+{
+    "events": [
+        {"id": 1, "name": "Grocery", "date": "2020-09-15T00:00:00.000Z", "recurring": false},
+        {"id": 2, "name": "Bill", "date": "2020-10-11T06:30:00.000Z", "recurring": true},
+        {"id": 3, "name": "Shopping", "date": "2021-01-19T11:30:00.000Z", "recurring": false},
+        {"id": 4, "name": "Meeting", "date": "2021-06-01T12:23:00.000Z", "recurring": true}
+    ]
+}

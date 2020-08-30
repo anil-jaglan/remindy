@@ -1,5 +1,4 @@
 {
-  "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -8,19 +7,39 @@
     "test": "jest"
   },
   "dependencies": {
-    "expo": "~37.0.3",
-    "expo-updates": "~0.1.0",
-    "react": "~16.9.0",
+    "@react-native-community/cli": "^4.12.0",
+    "@react-native-community/datetimepicker": "^3.0.1",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "@shoutem/ui": "^2.0.3",
+    "expo": "^38.0.9",
+    "expo-constants": "^9.1.1",
+    "expo-splash-screen": "^0.5.0",
+    "expo-status-bar": "^1.0.0",
+    "expo-updates": "~0.2.10",
+    "moment": "^2.27.0",
+    "react": "16.13.1",
     "react-dom": "~16.9.0",
-    "react-native": "~0.61.5",
-    "react-native-gesture-handler": "~1.6.0",
-    "react-native-reanimated": "~1.7.0",
-    "react-native-screens": "~2.2.0",
-    "react-native-unimodules": "~0.9.0",
-    "react-native-web": "~0.11.7"
+    "react-native": "0.63.2",
+    "react-native-action-button": "^2.8.5",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-linear-gradient": "~2.5.6",
+    "react-native-modal-datetime-picker": "^8.9.3",
+    "react-native-photo-view": "github:shoutem/react-native-photo-view#0ffa1481f6b6cb8663cb291b7db1d6644440584d",
+    "react-native-reanimated": "^1.13.0",
+    "react-native-safe-area-context": "^3.1.7",
+    "react-native-screens": "^2.10.1",
+    "react-native-unimodules": "~0.10.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "~0.11.7",
+    "react-native-webview": "^7.5.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
+    "babel-jest": "~25.2.6",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.11.0",
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.23",
     "babel-preset-expo": "~8.1.0",
@@ -30,5 +49,7 @@
   "jest": {
     "preset": "react-native"
   },
-  "private": true
+  "private": true,
+  "name": "remindy",
+  "version": "1.0.0"
 }
